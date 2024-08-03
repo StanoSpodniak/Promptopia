@@ -1,5 +1,8 @@
 import "@styles/globals.css";
 
+import Nav from "@components/Nav";
+import Provider from "@components/Provider";
+
 //Tutorial: https://www.youtube.com/watch?v=wm5gMKuwSYk&t=213s 53:20
 
 export const metadata = {
@@ -15,7 +18,10 @@ const RootLayout = ({ children }) => {
                     <div className="gradient" />
                 </div>
 
-                <main className="app">{children}</main>
+                <main className="app">
+                    <Nav />
+                    {children}
+                </main>
             </body>
         </html>
     );
