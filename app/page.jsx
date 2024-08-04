@@ -1,7 +1,7 @@
 import React from "react";
 import Feed from "@components/Feed";
 
-//Tutorial: https://www.youtube.com/watch?v=wm5gMKuwSYk&t=213s 1:50:00 Create page
+//Tutorial: https://www.youtube.com/watch?v=wm5gMKuwSYk&t=213s 2:32:00 Profile page
 
 const Home = () => {
     return (
